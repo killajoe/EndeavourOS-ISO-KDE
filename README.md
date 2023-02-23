@@ -26,14 +26,14 @@ You need to use an installed EndeavourOS system or any archbased system with End
 As the installer packages and needed dependencies will get installed from EndeavourOS repository.
 
 
-### Install build dependencies
+**Install build dependencies**
 
 ```
 sudo pacman -S archiso mkinitcpio-archiso git squashfs-tools --needed
 ```
 Recommended to reboot after this changes.
 
-# get the code:
+**get the code:**
 
 
 ```
@@ -42,19 +42,19 @@ cd EndeavourOS-ISO-KDE
 ./prepare.sh
 ```
 
-# Build
+**Build**
 
 ~~~
 sudo ./mkarchiso -v "."
 ~~~
 
-**or with log:**
+**with log:**
 
 ~~~
 sudo ./mkarchiso -v "." 2>&1 | tee "eosiso_$(date -u +'%Y.%m.%d-%H:%M').log"
 ~~~
 
-##### 3. The .iso appears in `out` directory
+**The .iso appears in `out` directory**
 
 
 ## Advanced
