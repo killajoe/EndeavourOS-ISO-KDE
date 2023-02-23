@@ -42,7 +42,7 @@ cd EndeavourOS-ISO-KDE
 ./prepare.sh
 ```
 
-**Build**
+**build:**
 
 ~~~
 sudo ./mkarchiso -v "."
@@ -57,8 +57,7 @@ sudo ./mkarchiso -v "." 2>&1 | tee "eosiso_$(date -u +'%Y.%m.%d-%H:%M').log"
 **The .iso appears in `out` directory**
 
 
-## Advanced
-
+### Advanced
 To install locally builded packages on ISO put the packages inside directory:
 
 ~~~
