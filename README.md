@@ -8,7 +8,7 @@
 ### Development source
 
 - [EndeavourOS-ISO source](https://github.com/endeavouros-team/EndeavourOS-ISO) (Live environment with XFCE4-Desktop)
-- [EndeavourOS-calamares](https://github.com/endeavouros-team/EndeavourOS-calamares) (installer framework)
+- [EndeavourOS-calamares](https://github.com/endeavouros-team/calamares) (installer framework)
 
 
 ### Base source
