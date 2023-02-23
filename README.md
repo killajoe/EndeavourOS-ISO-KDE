@@ -16,17 +16,8 @@
 - [Arch-ISO](https://gitlab.archlinux.org/archlinux/archiso)
 - [Calamares](https://github.com/calamares/calamares)
 
-
-
-# Boot options
-
-Systemd-boot for UEFI systems:  
-<img src="https://raw.githubusercontent.com/endeavouros-team/screenshots/master/Apollo/apollo-systemdboot.png" alt="drawing" width="600"/>
-
-Bios-boot (syslinux) for legacy systems:  
-<img src="https://raw.githubusercontent.com/endeavouros-team/screenshots/master/Apollo/apollo-syslinux.png" alt="drawing" width="600"/>
-
-
+# Lates autobuilds will be uploaded here:
+http://endeavour.kamprad.net/develiso/
 
 # How to build ISO
 
