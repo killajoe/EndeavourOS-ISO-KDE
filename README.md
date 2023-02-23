@@ -2,6 +2,7 @@
 
 [![Maintenance](https://img.shields.io/maintenance/yes/2023.svg)]()
 
+![joekamprad-kde-iso](https://user-images.githubusercontent.com/16797647/221051625-d4f292c6-8801-47bc-863c-498592cb486a.jpg)
 
 
 ### Development source
@@ -41,7 +42,15 @@ sudo pacman -S archiso mkinitcpio-archiso git squashfs-tools --needed
 ```
 Recommended to reboot after this changes.
 
-###  Build
+# get the code:
+
+
+```
+git clone https://github.com/killajoe/EndeavourOS-ISO-KDE.git
+cd EndeavourOS-ISO-KDE
+```
+
+# Build
 
 ~~~
 sudo ./mkarchiso -v "."
