@@ -39,6 +39,7 @@ Recommended to reboot after this changes.
 ```
 git clone https://github.com/killajoe/EndeavourOS-ISO-KDE.git
 cd EndeavourOS-ISO-KDE
+./prepare.sh
 ```
 
 # Build
