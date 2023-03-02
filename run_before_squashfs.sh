@@ -90,12 +90,43 @@ mkdir -p "/usr/share/packages"
 sudo pacman -Sw --noconfirm --cachedir "/usr/share/packages" grub eos-dracut kernel-install-for-dracut refind os-prober xf86-video-intel
 
 # Clean pacman log and package cache
+rm "# Set wallpaper for live-session and original for installed system
+mv "endeavouros-wallpaper.png" "/etc/calamares/files/endeavouros-wallpaper.png"
+mv "/root/livewall.png" "/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"
+chmod 644 "/usr/share/endeavouros/backgrounds/"*".png"
+
+
+# TEMPORARY CUSTOM FIXES
+
+# Fix for getting bash configs installed
+cp -af "/home/liveuser/"{".bashrc",".bash_profile"} "/etc/skel/"
+
+# Move blacklisting nouveau out of ISO (copy back to target for offline installs)
+mv "/usr/lib/modprobe.d/nvidia-utils.conf" "/etc/calamares/files/nv-modprobe"
+mv "/usr/lib/modules-load.d/nvidia-utils.conf" "/etc/calamares/files/nv-modules-load"
+
+# Get extra drivers!
+mkdir "/opt/extra-drivers"
+sudo pacman -Sw --noconfirm --cachedir "/opt/extra-drivers" r8168
+
+# install packages
+mkdir -p "/usr/share/packages"
+sudo pacman -Sw --noconfirm --cachedir "/usr/share/packages" grub eos-dracut kernel-install-for-dracut refind os-prober xf86-video-intel
+
+# Clean pacman log and package cache
 rm "/var/log/pacman.log"
 # pacman -Scc seem to fail so:
 rm -rf "/var/cache/pacman/pkg/"
 
 #calamares BUG https://github.com/calamares/calamares/issues/2075
 rm -rf /home/build
+#/var/log/pacman.log"
+# pacman -Scc seem to fail so:
+rm -rf "/var/cache/pacman/pkg/"
+
+#calamares BUG https://github.com/calamares/calamares/issues/2075
+rm -rf /home/build
+#
 
 echo "############################"
 echo "# end chrooted commandlist #"
