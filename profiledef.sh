@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="joekamprad-KDE-ISO"
-iso_label="joe_$(date +%Y%m)"
+iso_name="unclemez-KDE-ISO"
+iso_label="mez_$(date +%Y%m)"
 iso_publisher="joekamprad <http://endeavour.kamprad.net>"
-iso_application="joekamprad Live/Rescue CD"
+iso_application="unclemez Live/Rescue CD"
 iso_version="$(date +%Y.%m.%d)"
 install_dir="arch"
 buildmodes=('iso')
