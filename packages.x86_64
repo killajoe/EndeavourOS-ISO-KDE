@@ -298,3 +298,11 @@ xf86-video-vmware
 
 # eos-arm needed packages for chroot into arm device
 qemu-arm-aarch64-static-bin
+
+# packages for uncle MEZ
+qbittorrent
+bitwarden
+discord
+thunderbird
+libreoffice-fresh
+vivaldi
