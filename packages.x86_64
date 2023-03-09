@@ -209,12 +209,9 @@ audiocd-kio
 bluedevil
 breeze-gtk
 dolphin
-dragon
-elisa
 eos-plasma-sddm-config
 eos-settings-plasma
 gwenview
-kcalc
 kdeconnect
 kde-gtk-config
 khotkeys
@@ -242,7 +239,6 @@ kate
 file-roller
 
 ## Browser
-firefox
 
 ## System
 meld
