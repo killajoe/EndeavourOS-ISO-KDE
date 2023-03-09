@@ -1,11 +1,12 @@
-# joekamprad-KDE-ISO
+# mez_and_joe KDE-ISO
 
 [![Maintenance](https://img.shields.io/maintenance/yes/2023.svg)]()
 
-![joekamprad-kde-iso](https://user-images.githubusercontent.com/16797647/221051625-d4f292c6-8801-47bc-863c-498592cb486a.jpg)
+![mez_and_joe-kde-iso](https://user-images.githubusercontent.com/16797647/221051625-d4f292c6-8801-47bc-863c-498592cb486a.jpg)
 
 * Personal Edition of the EndeavourOS ISO using KDE as Livesession and for offline installs.
 * It will gbet rebuilded every 3 days.
+* no in cooperation with unclemez
 
 ### Development source
 
